@@ -5,7 +5,7 @@
   
 
 
-<html class="theme-next pisces use-motion" lang="zh-Hans">
+<html class="theme-next gemini use-motion" lang="zh-Hans">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -112,7 +112,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="README语法简介," />
 
 
 
@@ -124,13 +124,14 @@
 
 
 <meta name="description" content="(1)标题我们使用#来确定标题,这里相当于HTML中的H1-H6,#越少标题字体就越大,当然要从一个开始算起,最大是六个(2)图片导入导入图片是用![图片名称](图片路径)(3)网址或者链接导入链接或者网址导入[网址名称](网址路径)(4)强调我们可以使用下面的方式给我们的文本添加强调的效果   *强调* 或者 _强调_  (示例：斜体)   **加重强调** 或者 __加重强调__ (示例：粗体">
+<meta name="keywords" content="README语法简介">
 <meta property="og:type" content="article">
 <meta property="og:title" content="README语法简介">
 <meta property="og:url" content="http://yoursite.com/2017/10/11/README语法简介/index.html">
 <meta property="og:site_name" content="yxchtq520 blog">
 <meta property="og:description" content="(1)标题我们使用#来确定标题,这里相当于HTML中的H1-H6,#越少标题字体就越大,当然要从一个开始算起,最大是六个(2)图片导入导入图片是用![图片名称](图片路径)(3)网址或者链接导入链接或者网址导入[网址名称](网址路径)(4)强调我们可以使用下面的方式给我们的文本添加强调的效果   *强调* 或者 _强调_  (示例：斜体)   **加重强调** 或者 __加重强调__ (示例：粗体">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-10-11T14:54:40.122Z">
+<meta property="og:updated_time" content="2017-10-12T17:07:09.252Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="README语法简介">
 <meta name="twitter:description" content="(1)标题我们使用#来确定标题,这里相当于HTML中的H1-H6,#越少标题字体就越大,当然要从一个开始算起,最大是六个(2)图片导入导入图片是用![图片名称](图片路径)(3)网址或者链接导入链接或者网址导入[网址名称](网址路径)(4)强调我们可以使用下面的方式给我们的文本添加强调的效果   *强调* 或者 _强调_  (示例：斜体)   **加重强调** 或者 __加重强调__ (示例：粗体">
@@ -141,7 +142,7 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
-    scheme: 'Pisces',
+    scheme: 'Gemini',
     version: '5.1.3',
     sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
     fancybox: true,
@@ -204,7 +205,7 @@
       </a>
     </div>
       
-        <p class="site-subtitle">miss you</p>
+        <p class="site-subtitle">i miss you</p>
       
   </div>
 
@@ -227,17 +228,27 @@
         <li class="menu-item menu-item-home">
           <a href="/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-question-circle"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
             
             首页
           </a>
         </li>
       
         
-        <li class="menu-item menu-item-tags">
-          <a href="/tags" rel="section">
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-question-circle"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
             
             标签
           </a>
@@ -245,21 +256,121 @@
       
         
         <li class="menu-item menu-item-categories">
-          <a href="/categories" rel="section">
+          <a href="/categories/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-question-circle"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
             
             分类
           </a>
         </li>
       
         
+        <li class="menu-item menu-item-阅读">
+          <a href="/categories/阅读/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-file-text"></i> <br />
+            
+            阅读
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-随笔">
+          <a href="/categories/随笔/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-sticky-note"></i> <br />
+            
+            随笔
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-学习">
+          <a href="/categories/学习/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-graduation-cap"></i> <br />
+            
+            学习
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-渗透">
+          <a href="/categories/渗透/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-sitemap"></i> <br />
+            
+            渗透
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-前端">
+          <a href="/categories/前端/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-film"></i> <br />
+            
+            前端
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-工具">
+          <a href="/categories/工具/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-wrench"></i> <br />
+            
+            工具
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-书籍">
+          <a href="/categories/书籍分享/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-book"></i> <br />
+            
+            书籍
+          </a>
+        </li>
+      
+        
         <li class="menu-item menu-item-archives">
-          <a href="/archives" rel="section">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-schedule">
+          <a href="/schedule/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-calendar"></i> <br />
+            
+            日程表
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-sitemap">
+          <a href="/sitemap.xml" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-sitemap"></i> <br />
+            
+            站点地图
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-baidusitemap">
+          <a href="/baidusitemap.xml" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-question-circle"></i> <br />
             
-            归档
+            baidusitemap
           </a>
         </li>
       
@@ -336,6 +447,28 @@
           </span>
 
           
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/programing/" itemprop="url" rel="index">
+                    <span itemprop="name">编程</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
 
           
             
@@ -387,6 +520,12 @@
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/README语法简介/" rel="tag"># README语法简介</a>
+          
+        </div>
+      
 
       
       
@@ -405,6 +544,10 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2017/10/12/name/" rel="prev" title="name">
+                name <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -475,7 +618,7 @@
                 alt="yxchtq520" />
             
               <p class="site-author-name" itemprop="name">yxchtq520</p>
-              <p class="site-description motion-element" itemprop="description">以梦为马</p>
+              <p class="site-description motion-element" itemprop="description">生活在于折腾</p>
           </div>
 
           <nav class="site-state motion-element">
@@ -483,16 +626,34 @@
             
               <div class="site-state-item site-state-posts">
               
-                <a href="/archives">
+                <a href="/archives/">
               
-                  <span class="site-state-item-count">3</span>
+                  <span class="site-state-item-count">4</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
             
 
             
+              
+              
+              <div class="site-state-item site-state-categories">
+                <a href="/categories/index.html">
+                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-name">分类</span>
+                </a>
+              </div>
+            
 
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-name">标签</span>
+                </a>
+              </div>
             
 
           </nav>
@@ -606,7 +767,7 @@
 
 
 
-  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Pisces</a> v5.1.3</div>
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Gemini</a> v5.1.3</div>
 
 
 
